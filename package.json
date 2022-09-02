@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/ckomalram/one4ll.git"
   },
-  "keywords": [],
+  "keywords": ["Node","Angular","Ionic", "React", "Pipes", "Arrays"],
   "author": "Carlyle Komalram <glaw14@gmail.com>",
   "license": "MIT",
   "bugs": {
