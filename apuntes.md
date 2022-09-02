@@ -1,10 +1,4 @@
-# NPM
-## Nacimiento de las herramientas.
-- 1995 nace JS.
-- 2009 nace node js.
-- Node es un gestor de dependencia.
-- Con NPM podremos tener paquetes y modulos.
-- NPM cuenta con un CLI.
+# NPM Packages
 ## Comandos varios NPM
 -  npm init : comando para inicializar npm.
 -  npm init -y : comando para crear por defecto el package.json
@@ -45,7 +39,7 @@
 - npm i -g C:\Users\carly\Documents\curso_personales\2022\node_gestion_paquetes\one4ll : para instalar global.
 - npm adduser: para iniciar sesion con credenciales de npm org.
 - npm publish: una vez logeado, se puede publicar el paquete.
-- 
+- npm version : para agregar una nueva version del paquete.
 - 
 - https://semver.org/lang/es/ : Guía de versionamiento.
 - 
