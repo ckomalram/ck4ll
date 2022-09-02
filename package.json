@@ -1,6 +1,6 @@
 {
   "name": "one4ll",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "zi kei  for all",
   "main": "index.js",
   "scripts": {
@@ -16,12 +16,5 @@
   "bugs": {
     "url": "https://github.com/ckomalram/one4ll/issues"
   },
-  "homepage": "https://github.com/ckomalram/one4ll#readme",
-  "bin": {
-    "one4ll": "./bin/global.js"
-  },
-  "preferGlobal": true,
-  "dependencies": {
-    "user": "^0.0.0"
-  }
+  "homepage": "https://github.com/ckomalram/one4ll#readme"
 }
