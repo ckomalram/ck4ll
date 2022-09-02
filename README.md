@@ -1,18 +1,19 @@
 # One4ll
 zi kei  for all 
-Whenever I start a new project, I don't know what to write for the first commit. After doing a “git init” there is technically nothing there...
+Utils functions 
 
 ## Install
 
 ```npm
-npm install -g one4all
+npm install one4all
 ```
 
 # Usage
 
-```bash
- one4ll
-```
+
+Please refer to the documentation on 
+[one4ll](https://github.com/ckomalram/one4ll)
+
 
 # Contributing
 
