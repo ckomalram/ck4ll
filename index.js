@@ -1,28 +1,30 @@
-const messages = [
-  "This is where it all begins...",
-  "Commit committed",
-  "Version control is awful",
-  "COMMIT ALL THE FILES!",
-  "The same thing we do every night, Pinky - try to take over the world!",
-  "Lock S-foils in attack position",
-  "This commit is a lie",
-  "I'll explain when you're older!",
-  "Here be Dragons",
-  "Reinventing the wheel. Again.",
-  "This is not the commit message you are looking for",
-  "Batman! (this commit has no parents)",
-];
-const funnyCommit = () => {
-  const message = messages[Math.floor(Math.random() * messages.length)];
-  console.log(`\x1b[34m${message}\x1b[89m`);
+/**
+ * Returns a random value from an array.
+ * @param {*[]} arr 
+ */
+const randomDataFromArray = (arr) => {
+  const data = arr[Math.floor(Math.random() * arr.length)];
+  console.log(`\x1b[34m${data}\x1b[89m`);
 };
 
 /**
- * Name to test this function.
- * @param {string} name 
+ * Returns join array data into pairs. 
+ * Example: [ [1,2], [3,4] , [5,6] ...]
+ * @param {*[]} arr 
+ * @returns {*[]} array
  */
-const helloWorld = (name) => {
-  console.log(`Hola ${name}.`);
-}
+const joinArrayDataIntoPair = (arr) => {
+  const odds = arr.reduce( (result, value, index, array) => {
 
-module.exports = { funnyCommit ,helloWorld };
+    if ( index % 2 === 0) {
+      result.push(array.slice(index, index + 2));
+    }
+     return result;
+  }, []);
+
+
+  return odds;
+} 
+
+
+module.exports = { randomDataFromArray, joinArrayDataIntoPair  };
