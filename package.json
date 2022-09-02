@@ -1,0 +1,27 @@
+{
+  "name": "one4ll",
+  "version": "1.0.0",
+  "description": "zi kei  for all",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckomalram/one4ll.git"
+  },
+  "keywords": [],
+  "author": "Carlyle Komalram <glaw14@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckomalram/one4ll/issues"
+  },
+  "homepage": "https://github.com/ckomalram/one4ll#readme",
+  "bin": {
+    "one4ll": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "user": "^0.0.0"
+  }
+}

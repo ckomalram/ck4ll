@@ -1,0 +1,95 @@
+# NPM
+## Nacimiento de las herramientas.
+- 1995 nace JS.
+- 2009 nace node js.
+- Node es un gestor de dependencia.
+- Con NPM podremos tener paquetes y modulos.
+- NPM cuenta con un CLI.
+## Comandos varios NPM
+-  npm init : comando para inicializar npm.
+-  npm init -y : comando para crear por defecto el package.json
+-  npm i moment : instalar dependencia, por lo general la ultima versión de esta.
+-  npm i eslint --save-dev : Instalar uns dependencia pero solo en desarrollo
+-  npm i eslint -D : Instalar uns dependencia pero solo en desarrollo
+-  npm i react -S : guardar como dependencia prod.
+-  npm i react --save : guardar como dependencia prod.
+-  npm i -g cowsay  : Instalar paquetes globales.
+-  npm list: ver paquetes instalados a este proyecto.
+-  npm list -g: ver paquetes instalados globales.
+-  npm i _____ -o : para instalar la dependencia y que sea opcional. 
+-  npm i ______ --dry-run : simular una instalación.
+-  npm i json-server@0.15.0 : instalar versión especifica del paquete.
+-  npm i json-server@latest : instalar versión especifica del paquete.
+-  npm i : instalar paquetes que están dentro del package json del proyecto.
+## Scripts en NPM
+- Son todos los scripts que se van a encontrar en la sección scripts del package.json
+- El alias base siemmpre sería NPM.
+- Los comandos, se pueden concatenar con &&. Ex: "node src/index.js && node src/index.js "
+- NPX : Permite ejecutar acciones sin pasar por la copilación de la computadora. (eXecute).
+    - Instala y eejecuta al mismo tiempo.
+    - npx create-react-app react-example
+- npm outdate : mostrarme si algún paquete ha tenido cambios con neuvas versiona y estoy usando old v.
+- npm i react@latest
+- npm audit: ver que esta pasando con los paquetes de npm
+- npm audit --json: ver que esta pasando con los paquetes de npm
+- npm audit fix: hace actualización de recursos necesarios.
+- npm audit fix --force: hace actualización de recursos necesarios forzados.
+- npm unistall _____ : Para desintalar las dependencias que no queremos en nuestro proyecot.
+    -Se puede eliminar directo en el package.json. Volver a ejecutar npm i una vez modificado el archivo.
+    - rm -rf node_modules/
+- npm run build: Prepara proyecto apra producción.
+- npm run build --dd: activa modo verbose....
+- npm ci : ver mensaje de librerias deprecadas o no tendrá actualización.
+## Crear paquetes de NPM
+- npm link: hacer linkeao del paquete.
+- npm i -g C:\Users\carly\Documents\curso_personales\2022\node_gestion_paquetes\one4ll : para instalar global.
+- npm adduser: para iniciar sesion con credenciales de npm org.
+- npm publish: una vez logeado, se puede publicar el paquete.
+- 
+- 
+- https://semver.org/lang/es/ : Guía de versionamiento.
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+-
