@@ -24,4 +24,5 @@ const funnyCommit = () => {
 const helloWorld = (name) => {
   console.log(`Hola ${name}.`);
 }
+
 module.exports = { funnyCommit ,helloWorld };
